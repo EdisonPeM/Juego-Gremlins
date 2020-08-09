@@ -1,0 +1,68 @@
+body {
+	background-color: #000000;
+	background: #000000 url('../imagenes/wallpaper1.png') no-repeat right center;
+	text-align: center;
+}
+
+h1,
+h3 {
+	color: #2B9861;
+	font-family: Georgia;
+	font-size: 3em;
+	text-shadow: -1px 0 #F0BB2C, 0 1px #F0BB2C, 1px 0 #F0BB2C, 0 -1px #F0BB2C;
+}
+
+div {
+	display: inline-block;
+	vertical-align: top;
+	background: url('../imagenes/trasparente.png');
+	border: 2px solid;
+	border-color: #ffffff;
+	border-radius: 15px;
+	margin: 2em 0.5em;
+	padding: 0.5em 3em;
+	text-align: center;
+}
+
+canvas {
+	background: url('../imagenes/canvas.png');
+	color: #ffffff;
+	border: 2px solid;
+	border-color: #ffffff;
+	border-radius: 15px;
+}
+
+p {
+	color: #003300;
+}
+
+button {
+	margin: 0.3em;
+	color: #2B9886;
+	font-size: 1em;
+	cursor: pointer;
+	background-color: #2B9861;
+	color: white;
+
+	border: none;
+	padding: 0.8em;
+	border-radius: 1em;
+}
+
+#gizmo {
+	display: none;
+	width: 50%;
+	height: 50%;
+}
+
+#loco {
+	display: none;
+	width: 50%;
+	height: 50%;
+}
+
+#exp {
+	display: none;
+	width: 50%;
+	height: 50%;
+}

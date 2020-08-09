@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Juego Gremlins">
+	<meta name="keywords" content="canvas colisiones">
+	<meta name="authors" content="Edison Peñuela">
+
+	<link rel="shortcut icon" href="imagenes/gizmo3.png" type="image/png">
+	<title>Gremlins</title>
+
+	<link rel="stylesheet" href="estilos/default.css">
+</head>
+
+<body>
+	<div>
+		<canvas id="mi_canvas" width="640" height="480">
+			Tu navegador no es compatible
+		</canvas>
+	</div>
+	<div>
+		<h1>Gremlins</h1>
+		<button id="iniciar" onclick="jugar()">Iniciar</button>
+		<button id="acabar" onclick="terminar()">Terminar</button>
+	</div>
+
+	<script src="js/Gremlin.js"></script>
+	<script src="js/gizmo.js"></script>
+	<script>
+		inicio()
+	</script>
+</body>
+
+</html>
